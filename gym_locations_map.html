@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_04966472416ba0194f5f46a6aec021ba {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_04966472416ba0194f5f46a6aec021ba" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_04966472416ba0194f5f46a6aec021ba = L.map(
+                "map_04966472416ba0194f5f46a6aec021ba",
+                {
+                    center: [37.0902, -95.7129],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0297e9612fa7405d4c50a793de3ebbb7 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_0297e9612fa7405d4c50a793de3ebbb7.addTo(map_04966472416ba0194f5f46a6aec021ba);
+        
+    
+            var marker_767cb9e0856652a283983b49357fca19 = L.marker(
+                [40.7128, -74.006],
+                {}
+            ).addTo(map_04966472416ba0194f5f46a6aec021ba);
+        
+    
+        var popup_f2592be92dd6b59f7b41f54eef2e1446 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e89ae26550cde6575e8e6a9d900f6aa = $(`<div id="html_3e89ae26550cde6575e8e6a9d900f6aa" style="width: 100.0%; height: 100.0%;">Gym Type: Premium<br>Facilities: Climbing Wall, Swimming Pool, Basketball Court</div>`)[0];
+                popup_f2592be92dd6b59f7b41f54eef2e1446.setContent(html_3e89ae26550cde6575e8e6a9d900f6aa);
+            
+        
+
+        marker_767cb9e0856652a283983b49357fca19.bindPopup(popup_f2592be92dd6b59f7b41f54eef2e1446)
+        ;
+
+        
+    
+    
+            marker_767cb9e0856652a283983b49357fca19.bindTooltip(
+                `<div>
+                     New York
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_787aff9e87cf40819bffdc120ceb9d54 = L.marker(
+                [34.0522, -118.2437],
+                {}
+            ).addTo(map_04966472416ba0194f5f46a6aec021ba);
+        
+    
+        var popup_c5794ed26ee9023d78f8f237d3abb11a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b0882c39aabd082c7faf9fc0719feac7 = $(`<div id="html_b0882c39aabd082c7faf9fc0719feac7" style="width: 100.0%; height: 100.0%;">Gym Type: Budget<br>Facilities: Climbing Wall, Yoga Classes, Sauna</div>`)[0];
+                popup_c5794ed26ee9023d78f8f237d3abb11a.setContent(html_b0882c39aabd082c7faf9fc0719feac7);
+            
+        
+
+        marker_787aff9e87cf40819bffdc120ceb9d54.bindPopup(popup_c5794ed26ee9023d78f8f237d3abb11a)
+        ;
+
+        
+    
+    
+            marker_787aff9e87cf40819bffdc120ceb9d54.bindTooltip(
+                `<div>
+                     Los Angeles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bf5328ee45ab6040543ce75e5d7efe03 = L.marker(
+                [41.8781, -87.6298],
+                {}
+            ).addTo(map_04966472416ba0194f5f46a6aec021ba);
+        
+    
+        var popup_bbf374eb6a8ee2766b36890b4307d242 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9eae4382174c6548f892ce9400e79a89 = $(`<div id="html_9eae4382174c6548f892ce9400e79a89" style="width: 100.0%; height: 100.0%;">Gym Type: Budget<br>Facilities: Sauna, Climbing Wall, Swimming Pool</div>`)[0];
+                popup_bbf374eb6a8ee2766b36890b4307d242.setContent(html_9eae4382174c6548f892ce9400e79a89);
+            
+        
+
+        marker_bf5328ee45ab6040543ce75e5d7efe03.bindPopup(popup_bbf374eb6a8ee2766b36890b4307d242)
+        ;
+
+        
+    
+    
+            marker_bf5328ee45ab6040543ce75e5d7efe03.bindTooltip(
+                `<div>
+                     Chicago
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0624ca9606e82e96094b994c56ee4805 = L.marker(
+                [29.7604, -95.3698],
+                {}
+            ).addTo(map_04966472416ba0194f5f46a6aec021ba);
+        
+    
+        var popup_94e6d9868a8d75d34974140bcd3b72a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6aa26538a4e78400e1858b74f7849a46 = $(`<div id="html_6aa26538a4e78400e1858b74f7849a46" style="width: 100.0%; height: 100.0%;">Gym Type: Premium<br>Facilities: Climbing Wall, Basketball Court, Swimming Pool</div>`)[0];
+                popup_94e6d9868a8d75d34974140bcd3b72a2.setContent(html_6aa26538a4e78400e1858b74f7849a46);
+            
+        
+
+        marker_0624ca9606e82e96094b994c56ee4805.bindPopup(popup_94e6d9868a8d75d34974140bcd3b72a2)
+        ;
+
+        
+    
+    
+            marker_0624ca9606e82e96094b994c56ee4805.bindTooltip(
+                `<div>
+                     Houston
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c831b8b7f3ff1e5dab6907bbfef5d59f = L.marker(
+                [33.4484, -112.074],
+                {}
+            ).addTo(map_04966472416ba0194f5f46a6aec021ba);
+        
+    
+        var popup_33738f1a103847b04c28a48dbfedd174 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7769432ad76ca48f48ae03d9fa52aeb0 = $(`<div id="html_7769432ad76ca48f48ae03d9fa52aeb0" style="width: 100.0%; height: 100.0%;">Gym Type: Standard<br>Facilities: Basketball Court, CrossFit, Swimming Pool</div>`)[0];
+                popup_33738f1a103847b04c28a48dbfedd174.setContent(html_7769432ad76ca48f48ae03d9fa52aeb0);
+            
+        
+
+        marker_c831b8b7f3ff1e5dab6907bbfef5d59f.bindPopup(popup_33738f1a103847b04c28a48dbfedd174)
+        ;
+
+        
+    
+    
+            marker_c831b8b7f3ff1e5dab6907bbfef5d59f.bindTooltip(
+                `<div>
+                     Phoenix
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_83af79d2c42dc3f6b4c1f279f46c905c = L.marker(
+                [39.9526, -75.1652],
+                {}
+            ).addTo(map_04966472416ba0194f5f46a6aec021ba);
+        
+    
+        var popup_0048dec531274418499cc056ebe5bd08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5554e6122bce16ebe67e641c4b69518c = $(`<div id="html_5554e6122bce16ebe67e641c4b69518c" style="width: 100.0%; height: 100.0%;">Gym Type: Budget<br>Facilities: Swimming Pool, Climbing Wall, Sauna</div>`)[0];
+                popup_0048dec531274418499cc056ebe5bd08.setContent(html_5554e6122bce16ebe67e641c4b69518c);
+            
+        
+
+        marker_83af79d2c42dc3f6b4c1f279f46c905c.bindPopup(popup_0048dec531274418499cc056ebe5bd08)
+        ;
+
+        
+    
+    
+            marker_83af79d2c42dc3f6b4c1f279f46c905c.bindTooltip(
+                `<div>
+                     Philadelphia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8b99f3d755d01e17bd4e69a6fcf68719 = L.marker(
+                [29.4241, -98.4936],
+                {}
+            ).addTo(map_04966472416ba0194f5f46a6aec021ba);
+        
+    
+        var popup_771a56c76dbb03c7a55b38304e9eca4f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4acc74619cddbb6212ec9f64136533c = $(`<div id="html_d4acc74619cddbb6212ec9f64136533c" style="width: 100.0%; height: 100.0%;">Gym Type: Premium<br>Facilities: Sauna, Basketball Court, Swimming Pool</div>`)[0];
+                popup_771a56c76dbb03c7a55b38304e9eca4f.setContent(html_d4acc74619cddbb6212ec9f64136533c);
+            
+        
+
+        marker_8b99f3d755d01e17bd4e69a6fcf68719.bindPopup(popup_771a56c76dbb03c7a55b38304e9eca4f)
+        ;
+
+        
+    
+    
+            marker_8b99f3d755d01e17bd4e69a6fcf68719.bindTooltip(
+                `<div>
+                     San Antonio
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6c174a8788f5ee88423c1d6b1a88471a = L.marker(
+                [32.7157, -117.1611],
+                {}
+            ).addTo(map_04966472416ba0194f5f46a6aec021ba);
+        
+    
+        var popup_85ba9e9c9af18af9d79ef126bb8546e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78612128ac637cf052385b91e9c31db3 = $(`<div id="html_78612128ac637cf052385b91e9c31db3" style="width: 100.0%; height: 100.0%;">Gym Type: Standard<br>Facilities: Basketball Court, Sauna, CrossFit</div>`)[0];
+                popup_85ba9e9c9af18af9d79ef126bb8546e9.setContent(html_78612128ac637cf052385b91e9c31db3);
+            
+        
+
+        marker_6c174a8788f5ee88423c1d6b1a88471a.bindPopup(popup_85ba9e9c9af18af9d79ef126bb8546e9)
+        ;
+
+        
+    
+    
+            marker_6c174a8788f5ee88423c1d6b1a88471a.bindTooltip(
+                `<div>
+                     San Diego
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_da748fe71c1e86ef24897c7c11eb0cee = L.marker(
+                [32.7767, -96.797],
+                {}
+            ).addTo(map_04966472416ba0194f5f46a6aec021ba);
+        
+    
+        var popup_9580776ccf3b372231e9cf4d855ef9f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b34832b11a1dbb2b8c2bd17d0e8e7a6a = $(`<div id="html_b34832b11a1dbb2b8c2bd17d0e8e7a6a" style="width: 100.0%; height: 100.0%;">Gym Type: Premium<br>Facilities: Sauna, CrossFit, Yoga Classes</div>`)[0];
+                popup_9580776ccf3b372231e9cf4d855ef9f9.setContent(html_b34832b11a1dbb2b8c2bd17d0e8e7a6a);
+            
+        
+
+        marker_da748fe71c1e86ef24897c7c11eb0cee.bindPopup(popup_9580776ccf3b372231e9cf4d855ef9f9)
+        ;
+
+        
+    
+    
+            marker_da748fe71c1e86ef24897c7c11eb0cee.bindTooltip(
+                `<div>
+                     Dallas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b2d40d23582143c77f5849d3d1fd449e = L.marker(
+                [37.3382, -121.8863],
+                {}
+            ).addTo(map_04966472416ba0194f5f46a6aec021ba);
+        
+    
+        var popup_a2fb1b85e08b5f78f6c21749cee7d3af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68396a8d49eb2b344dd41ec9b8b4f821 = $(`<div id="html_68396a8d49eb2b344dd41ec9b8b4f821" style="width: 100.0%; height: 100.0%;">Gym Type: Premium<br>Facilities: Swimming Pool, Sauna, CrossFit</div>`)[0];
+                popup_a2fb1b85e08b5f78f6c21749cee7d3af.setContent(html_68396a8d49eb2b344dd41ec9b8b4f821);
+            
+        
+
+        marker_b2d40d23582143c77f5849d3d1fd449e.bindPopup(popup_a2fb1b85e08b5f78f6c21749cee7d3af)
+        ;
+
+        
+    
+    
+            marker_b2d40d23582143c77f5849d3d1fd449e.bindTooltip(
+                `<div>
+                     San Jose
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

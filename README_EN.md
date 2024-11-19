@@ -31,3 +31,5 @@ To achieve this, we aim to answer the following questions:
 - Offer discounts on the most popular activities within each age range.
 - Offer free trials for less frequent activities within each age range.
 - Promote upgrades to higher-tier subscriptions in age ranges with lower spending.
+
+### Conclusiones para el rango 35-49 años
