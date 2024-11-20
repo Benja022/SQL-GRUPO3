@@ -10,7 +10,7 @@ Diseñar ofertas de productos y servicios que se ajusten a las necesidades y pre
 
 Para ello vamos a responder a las siguientes preguntas:
 
-- ¿Cuál es el rango de edad que más gasta? 
+- ¿Cuál es el rango de edad que más gasta?
 
 Para ello analizaremos el tipo de subscripción, y el tipo de ginmasio que frecuenta.
 
@@ -24,7 +24,7 @@ Analizaremos el tiempo total de permanencia en el gimnasio, la edad y el tipo de
 
 - ¿Influye el tipo de gimnasio en la permanencia de los clientes y el numero de subscripciones?
 
-Según el gimnasio oferta unas actividades u otras. Queremo ver si esto influye en el numero de subscripciones y en el rango de edad de los usuarios.
+Según el gimnasio oferta unas actividades u otras. Queremos ver si esto influye en el numero de subscripciones y en el rango de edad de los usuarios.
 
 ### Ideas iniciales
 

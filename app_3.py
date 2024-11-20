@@ -1,5 +1,6 @@
 # app_3.py
 import streamlit as st
+print("Streamlit está instalado correctamente.")
 import pandas as pd
 import joblib
 import matplotlib.pyplot as plt
